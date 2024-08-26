@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color:#f4f4f4;
+}
+
+header {
+    background: black;
+    color:#fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;    
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,form textarea {
+   padding: 10px;
+   margin-top: 5px;
+   border:1px solid #ccc;
+   border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    border:none;
+    cursor:pointer;
+    margin-top: 10px;
+}
+
+.Minha-foto {
+    width: 150px;
+    height: 200px;
+}
+
+.pc {
+    width: 400px;
+    height: 200px;
+}
+
+.facul {
+    width:200px;
+    height:200px;
+}
+
+.github {
+    width: 100px;
+    height: 100px;
+}
+
